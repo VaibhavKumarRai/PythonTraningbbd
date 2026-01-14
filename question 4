@@ -1,0 +1,6 @@
+a = 15
+b = 4
+print("The floor division of", a, "by", b, "is:", a // b)
+print("The remainder when", a, "is divided by", b, "is:", a % b)
+print("The power of", a, "raised to", b, "is:", a ** b)
+    

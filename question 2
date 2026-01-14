@@ -1,0 +1,4 @@
+Car_dstance = 120
+Car_time = 3
+Avg_speed = (Car_dstance) // (Car_time)
+print(Avg_speed)

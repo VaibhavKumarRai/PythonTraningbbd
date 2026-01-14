@@ -1,0 +1,15 @@
+num = int(input("Enter a number: "))
+print("choose an operation:")
+print("1. Square")
+print("2. Cube")
+print("3. square root")
+operation = input("Enter the operation (1/2/3): ")
+if operation == '1':
+    result = num ** 2
+    print("The square of", num, "is:", result)
+elif operation == '2':
+    result = num ** 3
+    print("The cube of", num, "is:", result)
+elif operation == '3':
+    result = num ** 0.5
+    print("The square root of", num, "is:", result)
