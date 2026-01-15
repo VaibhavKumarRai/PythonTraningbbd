@@ -1,0 +1,14 @@
+num = 10
+print("the value of num is:", num)
+num += 5
+print("the value of num after += 5 is:", num)
+num -= 3
+print("the value of num after -= 3 is:", num)
+num *= 2
+print("the value of num after *= 2 is:", num)
+num /= 4
+print("the value of num after /= 4 is:", num)
+num %= 3
+print("the value of num after %= 3 is:", num)
+num **= 2
+print("the value of num after **= 2 is:", num)
