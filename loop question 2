@@ -1,0 +1,5 @@
+int = [1,2,3,4,5]
+total = sum()
+average = total / len(int)
+print("Sum of the list is:", total)
+print("Average of the list is:", average)

@@ -1,0 +1,4 @@
+fruits = ['apple', 'banana', 'cherry', 'date']
+fruits.append('elderberry')
+fruits.insert(2, 'blueberry')
+print("Fruits list after additions:", fruits)

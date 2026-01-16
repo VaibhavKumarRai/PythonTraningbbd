@@ -1,0 +1,6 @@
+#loops Problem
+#for loop, while loop, nested loop
+int = [1, 2, 3, 4, 5]
+print("First element is:", int[0])
+print("Last element is:", int[-1])
+print("length of the list is:", len(int))
