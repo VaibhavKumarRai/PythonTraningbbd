@@ -1,0 +1,30 @@
+Countries_capitals = {
+    "United States": "Washington, D.C.",
+    "India": "New Delhi",
+    "United Kingdom": "London",
+    "Germany": "Berlin",
+    "France": "Paris"
+}
+print(Countries_capitals["India"])
+Countries_capitals["Japan"] = "Tokyo"
+print(Countries_capitals)
+Countries_capitals["United States"] = "New York"
+print(Countries_capitals)
+
+Student_scores = {
+    "Alice": 85,
+    "Bob": 92,
+    "Charlie": 78,
+    "David": 90
+}
+print(Student_scores.keys())
+print(Student_scores.values())
+print(Student_scores.items())
+Student_scores.update({"Eve": 88})
+print(Student_scores)
+Countries_capitals.pop("Germany")
+print(Countries_capitals)
+Countries_capitals.clear()
+print(Countries_capitals)
+Student_scores.popitem()
+print(Student_scores)
