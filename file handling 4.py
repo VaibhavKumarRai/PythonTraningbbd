@@ -81,13 +81,13 @@
 # file.close()
 
 # question 15
-source = open(r"C:\Users\HP\Desktop\STUDENTS.txt", "r")
-target = open(r"C:\Users\HP\Desktop\expensive_products.txt", "w")
+# source = open(r"C:\Users\HP\Desktop\STUDENTS.txt", "r")
+# target = open(r"C:\Users\HP\Desktop\expensive_products.txt", "w")
 
-for line in source:
-    data = line.strip().split(",")
-    if int(data[2]) > 20000:
-        target.write(line)
+# for line in source:
+#     data = line.strip().split(",")
+#     if int(data[2]) > 20000:
+#         target.write(line)
 
-source.close()
-target.close()
+# source.close()
+# target.close()
